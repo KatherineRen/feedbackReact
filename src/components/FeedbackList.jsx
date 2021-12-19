@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 function FeedbackList({ feedback, handleDelete }) {
   if (!feedback || feedback.length === 0) {
-    return <p>No Feedback yet</p>
+    return <p>No Feedback yet!</p>
   }
 
   return (
